@@ -1,3 +1,10 @@
+.text-quienes {
+    font-size: 1.75em !important;
+}
+
+.tit-grande {
+    font-size: 2.2em !important;
+}
 #menu {
     width: 100%;
     background-color: white;
@@ -38,7 +45,7 @@
 }
 
 .menu-link:hover {
-    background-color: #4eb980;
+    background-color: #D7A480;
 }
 
 .menu-venta {
@@ -67,11 +74,24 @@
 .titulo-head {
     display: block;
     margin-bottom: 50px;
-    color: #00E897 !important;
+    color: #F8D092 !important;
     letter-spacing: -.030em !important;
     font-size: 6.8rem !important;
     font-weight: 900;
     text-shadow: 2px 0 0 #000;
+}
+
+.container-subtitulo {
+    margin-bottom: 40px!important;
+    padding: 0 20px;
+}
+.subtitulo {
+    font-size: 2.3rem;
+    color: white;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px black;
+    text-transform: uppercase;
+    text-align: center;
 }
 
 .texto-head {
@@ -85,7 +105,7 @@
 }
 
 .color-verde {
-    color: #4eb980 !important;
+    color: #D7A480 !important;
 }
 
 .color-blanco {
@@ -107,7 +127,19 @@
 }
 
 #venta {
-    background-color: #4eb980 !important;
+    background-color: #E4BA8F !important;
+}
+
+/*TRABAJOS */
+.text-titulo-trabajo {
+    font-size: 3rem !important;
+    margin: 0px !important;
+}
+
+/*LOGO */
+img.logo-img {
+    width: 10em !important;
+    margin-bottom: 30px !important;
 }
 
 @media screen and (max-width: 1040px) {
@@ -125,6 +157,9 @@
 }
 
 @media screen and (max-width: 736px) {
+    .text-quienes {
+        font-size: 1.1em !important;
+    }
     #header {
         margin: 0 !important;
     }
@@ -144,6 +179,17 @@
         font-size: 2.7rem !important;
         margin-bottom: 10px;
     }
+
+    .texto-head {
+        font-size: .8em;
+    }
+
+    .nueva-vivienda-titulo {
+        font-size: 1.8rem;
+    }
+    .subtitulo {
+        font-size: 1.4rem;
+    }
 }
 
 @media screen and (max-width: 335px) {
@@ -154,5 +200,9 @@
     .titulo-head {
         font-size: 2.4rem !important;
         margin-bottom: 10px;
+    }
+
+    .contacto-li-email {
+        font-size: 1rem !important;
     }
 }
