@@ -135,13 +135,15 @@
     font-size: 3rem !important;
     margin: 0px !important;
 }
-
+.tit-trabajos {
+    font-size: 4rem;
+    margin-bottom: 0px !important;
+}
 /*LOGO */
 img.logo-img {
     width: 10em !important;
     margin-bottom: 30px !important;
 }
-
 @media screen and (max-width: 1040px) {
     #menu {
         display: none !important;
