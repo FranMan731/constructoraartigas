@@ -128,7 +128,13 @@
 
 #venta {
     background-color: #E4BA8F !important;
+    margin-top: 3em !important;
 }
+
+header#venta {
+        padding-left: 1em !important;
+        padding-right: 1em !important;
+    }
 
 /*TRABAJOS */
 .text-titulo-trabajo {
@@ -169,6 +175,11 @@ img.logo-img {
     .titulo-head {
         font-size: 4.5rem !important;
     }
+
+    header#venta {
+        padding-left: 1em !important;
+        padding-right: 1em !important;
+    }
 }
 
 @media screen and (max-width: 480px) {
@@ -178,7 +189,7 @@ img.logo-img {
     }
 
     .titulo-head {
-        font-size: 2.7rem !important;
+        font-size: 2.4rem !important;
         margin-bottom: 10px;
     }
 
@@ -200,7 +211,7 @@ img.logo-img {
     }
 
     .titulo-head {
-        font-size: 2.4rem !important;
+        font-size: 2rem !important;
         margin-bottom: 10px;
     }
 
